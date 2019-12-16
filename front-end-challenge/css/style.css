@@ -118,15 +118,25 @@ h4 {
   font-size: 20px;
   font-weight: bold;
   color: #48484A;
-  display: inline-block;
-  right: 16px left: 40px;
   text-align: right;
-
+  float: right;
+  padding-top: 25px;
+  /* border: 1px solid black;
+  outline-style: solid;
+  outline-color: red; */
 }
 
 ul {
   padding-left: 16px;
   padding-right: 16px;
+}
+
+.shadow-me {
+  /* border: 1px solid black;
+  outline-style: solid;
+  outline-color: red; */
+  box-shadow: 75px 1px #c8c7cc;
+  margin-bottom: 15px;
 }
 
 .fa-chevron-right {
@@ -135,6 +145,6 @@ ul {
   padding-left: 2px;
   float: right;
   margin-left: 0.2em;
-  padding-top: 25px
+  padding-top: 25px;
 
 }
