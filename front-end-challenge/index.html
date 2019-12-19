@@ -10,6 +10,8 @@
   </head>
 
   <body>
+    <header>
+      <nav class= "main-nav">
       <div class="status-bar">
         <img src="./images/Statusbar.png" alt="statusbar" class="status-bar">
       </div>
@@ -18,15 +20,21 @@
         <h1>Washington & State</h1>
         <i class="fas fa-location-arrow"></i>
       </section>
-      <section class="bus-listings">
-        <header class="list-headings">
-          <h2>Next Bus</h2>
-          <h2>Arriving In</h2>
-        </header>
+      </nav>
+    </header>
+
+    <section class="bus-listings">
+      <header class="list-headings">
+        <h2>Next Bus</h2>
+        <h2>Arriving In</h2>
+      </header>
+
+    <section class="bus-routes">
 
         <!--Eastbound busses-->
         <h4>Eastbound</h4>
-        <div class="bus-entry">
+      <ul class= "eastbound-buses"
+        <li class="bus-entry">
         <ul class="shadow-me" style="list-style: none;">
           <li class="circle line-number">60</li>
           <li class="bus-info">
@@ -37,8 +45,8 @@
           <i class="fas fa-chevron-right"></i>
           <li class= "arriving soon">5 mins</li>
         </ul>
-        </div>
-        <div class="bus-entry">
+      </li>
+        <li class="bus-entry">
         <ul style="list-style: none;">
           <li class="circle line-number">124</li>
           <li class="bus-info">
@@ -49,11 +57,13 @@
           <i class="fas fa-chevron-right"></i>
           <li class= "arriving soon">8 mins</li>
         </ul>
-        </div>
+      </li>
+    </ul>
 
         <!--Northbound busses-->
         <h4>Northbound</h4>
-        <div class="bus-entry">
+      <ul class= "northbound-buses">
+        <li class="bus-entry">
           <ul style="list-style: none;">
             <li class="circle line-number">151</li>
             <li class="bus-info">
@@ -64,11 +74,13 @@
             <i class="fas fa-chevron-right"></i>
             <li class= "arriving soon">10 mins</li>
           </ul>
-        </div>
+        </li>
+      </ul>
 
         <!--Southbound busses-->
         <h4>Southbound</h4>
-        <div class="bus-entry">
+      <ul class= "southbound-buses">
+        <li class="bus-entry">
           <ul class="shadow-me" style="list-style: none;">
             <li class="circle line-number">J14</li>
             <li class="bus-info">
@@ -79,8 +91,8 @@
             <i class="fas fa-chevron-right"></i>
             <li class= "arriving soon">11 mins</li>
           </ul>
-        </div>
-        <div class="bus-entry">
+        </li>
+        <li class="bus-entry">
           <ul style="list-style: none;">
             <li class="circle line-number">124</li>
             <li class="bus-info">
@@ -91,11 +103,13 @@
             <i class="fas fa-chevron-right"></i>
             <li class= "arriving soon">6 mins</li>
           </ul>
-        </div>
+        </li>
+      </ul>
 
         <!--Reroute busses-->
         <h4>Reroute</h4>
-        <div class="bus-entry">
+      <ul class= "re-route">
+        <li class="bus-entry">
           <ul style="list-style: none;">
             <li class="circle line-number">6x</li>
             <li class="bus-info">
@@ -106,11 +120,13 @@
             <i class="fas fa-chevron-right"></i>
             <li class= "arriving soon" style="display: none;">N/A</li>
           </ul>
-        </div>
+        </li>
+      </ul>
 
         <!--Out of Service Busses-->
         <h4>Out of Service</h4>
-        <div class="bus-entry">
+      <ul class="out-of-service">
+        <li class="bus-entry">
           <ul class="shadow-me" style="list-style: none;">
             <li class="circle line-number">4</li>
             <li class="bus-info">
@@ -121,8 +137,8 @@
             <i class="fas fa-chevron-right"></i>
             <li class= "arriving soon" style="display: none;">N/A</li>
           </ul>
-        </div>
-        <div class="bus-entry">
+        </li>
+        <li class="bus-entry">
           <ul class="shadow-me" style="list-style: none;">
             <li class="circle line-number">20</li>
             <li class="bus-info">
@@ -133,8 +149,8 @@
             <i class="fas fa-chevron-right"></i>
             <li class= "arriving soon" style="display: none;">N/A</li>
           </ul>
-        </div>
-        <div class="bus-entry">
+        </li>
+        <li class="bus-entry">
           <ul style="list-style: none;">
             <li class="circle line-number">157</li>
             <li class="bus-info">
@@ -145,7 +161,9 @@
             <i class="fas fa-chevron-right"></i>
             <li class= "arriving soon" style="display: none;">N/A</li>
           </ul>
-        </div>
-        </section>
-    </body>
+        </li>
+      </ul>
+      </section>
+    </section>
+  </body>
 </html>
